@@ -1,1 +1,1 @@
-https://github.com/Matveikka/ono-tebe-nado-fd#
+https://github.com/Matveikka/ono-tebe-nado-fd
