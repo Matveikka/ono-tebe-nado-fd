@@ -1,38 +1,32 @@
 .header {
+  margin: 92px 50px 91px 50px;
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 3.9fr 0.9fr 3.9fr;
+}
+
+.header__links-list {
+  display: flex;
   align-items: center;
-  padding: 91px 48px 92px 49px;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  padding-bottom: 8.5px;
-  column-gap: 9px;
+  gap: 33px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  list-style: none;
+  padding-bottom: 7px;
+  padding-left: px;
 }
 
-.underline {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+.no-list-marker {
+  display: list-item;
+  list-style-type: none;
 }
 
-.header-link {
-  display: inline;
-}
-
-.header-link-active {
-  text-decoration: none;
-  list-style: none;
-}
-
-.list-marker {
+.header__link {
   list-style: circle;
-  list-style-position: inside;
 }
 
 .header__logo-image {
@@ -52,8 +46,13 @@
 
 .header__address {
   justify-self: center;
-  padding-left: 150px;
-  padding-bottom: 7px;
+  padding-left: 154px;
+  padding-top: 4px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -211,7 +210,7 @@
   padding-right: 40px;
   color: #ffffff;
   z-index: 2;
-  text-underline-offset: 2px;
+  text-underline-offset: 1px;
 }
 
 .card__text {
@@ -296,6 +295,7 @@
 .footer {
   padding-top: 180px;
   width: 100%;
+  margin-bottom: 90px;
 }
 
 .footer-column {
@@ -306,6 +306,7 @@
 
 .footer__address {
   margin-left: 50px;
+  padding-top: 1px;
 }
 
 .footer__menu-list {
@@ -320,6 +321,7 @@
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 4px;
+  padding-top: 1px;
 }
 
 .footer__menu-link_active {
