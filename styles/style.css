@@ -28,9 +28,13 @@
   list-style: circle;
 }
 
+.header-link-active {
+  text-decoration: none;
+}
+
 .header__logo-image {
   display: block;
-  width: 138px;
+  width: 136px;
   justify-self: center;
   align-self: center;
 }
